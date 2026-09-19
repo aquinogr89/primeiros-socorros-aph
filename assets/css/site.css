@@ -17,6 +17,10 @@ header.topo{background:var(--azul);color:#fff;border-bottom:6px solid var(--ouro
 .pill.preparo{background:#fff4c2;border-color:#e0b800}
 .pill.piloto{background:#e6f0ff;border-color:#7ba7e0}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;padding:1rem 0 2rem}
+/* Duas apresentações por tema: o seletor "Tipo de apresentação" troca o que o cartão mostra. */
+.grid.modo-leigos .acoes-tecnicos,.grid.modo-leigos .min-tecnicos{display:none}
+.grid.modo-tecnicos .acoes-leigos,.grid.modo-tecnicos .min-leigos{display:none}
+.grid.modo-tecnicos .module{border-left:4px solid var(--azul)}
 .module,.cartao-trilha{border:1px solid var(--borda);border-radius:8px;padding:.9rem;background:#fff;display:flex;flex-direction:column;gap:.45rem}
 .module[hidden]{display:none}
 .module h3,.cartao-trilha h3{margin:0;font-size:1.05rem;color:var(--azul)}
