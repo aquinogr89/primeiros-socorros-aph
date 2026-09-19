@@ -17,11 +17,11 @@ header.topo{background:var(--azul);color:#fff;border-bottom:6px solid var(--ouro
 .pill.preparo{background:#fff4c2;border-color:#e0b800}
 .pill.piloto{background:#e6f0ff;border-color:#7ba7e0}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;padding:1rem 0 2rem}
-.module{border:1px solid var(--borda);border-radius:8px;padding:.9rem;background:#fff;display:flex;flex-direction:column;gap:.45rem}
+.module,.cartao-trilha{border:1px solid var(--borda);border-radius:8px;padding:.9rem;background:#fff;display:flex;flex-direction:column;gap:.45rem}
 .module[hidden]{display:none}
-.module h3{margin:0;font-size:1.05rem;color:var(--azul)}
-.module .obj{margin:0;font-size:.92rem;color:#333}
-.module .meta{font-size:.85rem;color:#444}
+.module h3,.cartao-trilha h3{margin:0;font-size:1.05rem;color:var(--azul)}
+.module .obj,.cartao-trilha .obj{margin:0;font-size:.92rem;color:#333}
+.module .meta,.cartao-trilha .meta{font-size:.85rem;color:#444}
 .botoes{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:auto}
 .botao{display:inline-block;padding:.45rem .7rem;border-radius:6px;border:1px solid var(--azul);background:#fff;color:var(--azul);text-decoration:none;font-size:.9rem;cursor:pointer}
 .botao.primario{background:var(--azul);color:#fff}
