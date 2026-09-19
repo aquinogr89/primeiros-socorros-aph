@@ -1,5 +1,7 @@
 (function () {
-  var cards = Array.prototype.slice.call(document.querySelectorAll('.module'));
+  // Só cartões de módulo de verdade: os cartões de escolha de trilha usam .cartao-trilha
+  // e já contaram como "módulo" no contador uma vez (20 de 20 em vez de 18 de 18).
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.module[data-slug]'));
   if (!cards.length) return;
   var q = document.getElementById('busca'),
       tema = document.getElementById('f-tema'),
