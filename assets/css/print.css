@@ -1,0 +1,9 @@
+@media print{
+ header.topo{background:#fff;color:#000;border-bottom:3px solid #000}
+ .topo .instr{background:#fff;color:#000;border:1px solid #000}
+ .skip,.controles,.botoes,.nav-slide,button,.no-print{display:none!important}
+ .slide{display:block!important;page-break-after:always;min-height:0}
+ .module,.bloco{border:1px solid #666;background:#fff!important}
+ a[href]::after{content:" (" attr(href) ")";font-size:.75rem}
+ body{font-size:12pt}
+}
