@@ -13,13 +13,13 @@
       marcados = [];
 
   function txt(c) { return (c.getAttribute('data-busca') || '').toLowerCase(); }
-  // Duas apresentações por tema: 1) crianças e adultos leigos (básico) 2) bombeiros militares (nível 2)
-  function modo() { return (tipo && tipo.value === 'tecnicos') ? 'tecnicos' : 'leigos'; }
+  // Duas apresentações por tema: 1) crianças e adultos do público geral (básico) 2) bombeiros militares (nível 2)
+  function modo() { return (tipo && tipo.value === 'tecnicos') ? 'tecnicos' : 'geral'; }
   function minDe(c) {
     return Number(c.getAttribute(modo() === 'tecnicos' ? 'data-min-nivel2' : 'data-min-basico') || 0);
   }
   function rotulo() {
-    return modo() === 'tecnicos' ? 'formação técnica de bombeiros' : 'crianças e adultos leigos';
+    return modo() === 'tecnicos' ? 'formação técnica de bombeiros' : 'crianças e adultos do público geral';
   }
 
   function aplicaModo() {
