@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64"
+     role="img" aria-label="Primeiros Socorros e APH">
+  <title>Primeiros Socorros e APH</title>
+  <!-- Marca própria do portal: nenhuma mídia, brasão ou símbolo institucional foi reproduzido.
+       Azul #002060 e dourado #FFB511 são as cores medidas no material de referência. -->
+  <rect width="64" height="64" rx="14" ry="14" fill="#002060"/>
+  <rect x="8" y="47" width="48" height="5" rx="2.5" ry="2.5" fill="#FFB511"/>
+  <text x="32" y="31" font-family="sans-serif" font-size="24" font-weight="700"
+        fill="#ffffff" text-anchor="middle" letter-spacing="0.5">APH</text>
+  <text x="32" y="42" font-family="sans-serif" font-size="9" font-weight="400"
+        fill="#cfd8ee" text-anchor="middle" letter-spacing="0.6">SALVAR VIDAS</text>
+</svg>
